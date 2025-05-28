@@ -3,7 +3,7 @@ import './cita.css';
 
 function Cita({ mascota, dueño, fecha, hora, sintomas, index, eliminarCita }) {
   return (
-    <div className="cita">
+    <div className="card">
       <p><strong>Mascota:</strong> {mascota}</p>
       <p><strong>Dueño:</strong> {dueño}</p>
       <p><strong>Fecha:</strong> {fecha}</p>

@@ -15,6 +15,35 @@
     margin-bottom: 0.8rem;
     font-size: 1rem;
   }
+  form label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  form button {
+    margin-top: 1.5rem;
+    width: 100%;
+    padding: 1rem;
+    background-color: #c10059;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Staatliches', cursive;
+  }
+  
   
   .card strong {
     font-weight: bold;
@@ -36,6 +65,9 @@
     color: red;
 }
 .txt {
-    background-color: black;
+  background-color: #f4f4f4;
+  padding: 2rem;
+  border-radius: 1rem;
+  font-family: sans-serif;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-  
